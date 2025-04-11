@@ -18,10 +18,12 @@ p {
     font-size: 18px;
     line-height: 1.4;
     font-family: "Crimson Text";
+    color:white;
 }
 
 h1, h2 {
     font-family: "Roboto";
+    color:white;
 }
 
 .divider {

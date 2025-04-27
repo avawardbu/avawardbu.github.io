@@ -1,20 +1,32 @@
-img, p, h1, h2, .divider, #myChart {
+#slideshow {
+    width: 80%; /* Or a specific pixel size like 800px */
+  max-width: 800px;
+  aspect-ratio: 3 / 2; /* Maintains proportions */
+  margin-left: auto;
+	margin-right: auto;
+    display: grid;
+    place-items: center;
+  overflow: hidden;
+  position: relative;
+  }
+
+  #slideshow img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  }
+  #slideshow img.active {
+    opacity: 1;
+  }
+
+img, p, h1, h2 {
 	width: 100%;
 	max-width: 640px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#myTooltip{
-    color:white;
-    position: absolute;
-	pointer-events: none;
-    padding: 15px;
-	background-color: black;
-	border: 1px solid white;
-    opacity: 0;
-    border-radius: 18px;
-
 }
 
 
@@ -23,7 +35,7 @@ img {
     padding: 15px 0px;
 }
 
-#Router {
+  #Router {
     max-width: 1000px;
 }
 
@@ -31,20 +43,17 @@ p {
     color:white;
     font-size: 18px;
     line-height: 1.4;
-    font-family: "Crimson Text";
+    font-family: "rigid-square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1, h2 {
     color:white;
-    font-family: "Roboto";
+    font-family: "rigid-square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.divider {
-    height: 2px;
-    background-color: #0868ac;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
 
 #Name {
     color:rgb(246, 255, 0);

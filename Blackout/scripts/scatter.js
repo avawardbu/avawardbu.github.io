@@ -7,7 +7,7 @@ const slides = document.querySelectorAll('#slideshow img');
     slides[current].classList.add('active');
   }
 
-  setInterval(showNextSlide, 3000); // Change image every 3 seconds
+  setInterval(showNextSlide, 4000); // Change image every 3 seconds
 
 
 // // set the dimensions and margins of the graph

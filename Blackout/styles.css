@@ -53,10 +53,15 @@ p {
 }
 
 h1, h2 {
-    color:white;
+  font-size: 16px;  
+  color:white;
     font-family: "rigid-square", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#built {
+  font-size: 14px;
 }
 
 .textbox {
@@ -66,3 +71,14 @@ h1, h2 {
   border: 5px solid white;
   margin: 0;
 }
+
+
+  #boxed-paragraph {
+    border: 2px solid white;   
+    padding: 10px;            
+    margin: 20px 0;           
+    background-color: black; 
+    border-radius: 0px;
+    margin: 20px auto;  
+    max-width: 600px;    
+  }

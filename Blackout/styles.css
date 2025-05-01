@@ -82,3 +82,11 @@ h1, h2 {
     margin: 20px auto;  
     max-width: 600px;    
   }
+
+  .custom-link {
+    color: #84bfff;  
+  }
+
+  .custom-link:hover {
+    color: #6e66ff; 
+  }

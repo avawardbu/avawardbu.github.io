@@ -39,6 +39,10 @@ img {
     max-width: 1000px;
 }
 
+#Timeline {
+  max-width: 1100px;
+}
+
 p {
     color:white;
     font-size: 18px;
